@@ -7,4 +7,4 @@ class PropertiesConfig(AppConfig):
 
     def ready(self):
         # Implicitly connect signal handlers decorated with @receiver.
-        from . import signals
+        import properties.signals
