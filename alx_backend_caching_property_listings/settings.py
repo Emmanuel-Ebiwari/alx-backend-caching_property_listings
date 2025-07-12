@@ -85,7 +85,7 @@ DATABASES = {
         'NAME': 'property_listings',
         'USER': 'postgres',
         'PASSWORD': 'postgres',
-        'HOST': 'db',  # Matches the service name in docker-compose.yml
+        'HOST': 'localhost',  # Set to 'localhost' or your database host
         'PORT': '5432',
     }
 }
